@@ -1,1 +1,139 @@
-/* This is a Responsive  */
+/* This is a Responsive  View */
+
+@media screen and (max-width: 1040px) {
+  header {
+    width: auto;
+    height: fit-content;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  /* Navbar Start Here */
+  nav {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 0;
+  }
+
+  .navbarLogo {
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 12px;
+  }
+
+  .navbarLogo img {
+    width: 30px;
+  }
+
+  .navbarLogo h1 {
+    font-size: 16px;
+  }
+
+  .navbarMenu {
+    width: fit-content;
+  }
+
+  .navbarMenu ul {
+    width: fit-content;
+    font-size: 14px;
+  }
+
+  /* Navbar Ends Here */
+
+  /* Jumbotron Start Here */
+  .jumbotron {
+    display: block;
+    width: 100vh;
+    height: fit-content;
+    margin-bottom: 0;
+  }
+
+  .jumbotronText {
+    height: fit-content;
+    width: auto;
+  }
+
+  .jumbotronText h1 {
+    font-size: 48px;
+    max-width: 448px;
+    height: fit-content;
+  }
+
+  .jumbotronText p {
+    max-width: 448px;
+    height: fit-content;
+    font-size: 16px;
+  }
+
+  .jumbotron img {
+    width: 347px;
+    margin: 0 auto;
+  }
+
+  /* Jumbotron Ends Here */
+
+  /* Start Main */
+
+  main {
+    height: fit-content;
+    width: 1px solid #fff;
+  }
+
+  .galleryContent {
+    display: block;
+    height: fit-content;
+    width: 1px solid #fff;
+    width: max-content;
+  }
+
+  .galleryContentItems {
+    height: fit-content;
+    margin-bottom: 20px;
+  }
+
+  .galleryContentItems img {
+    max-width: 350px;
+  }
+
+  .galleryContentCaption {
+    height: fit-content;
+    
+  }
+  .galleryContentCaption h3 {
+    font-size: 24px;
+    line-height: 150%;
+  }
+  .galleryContentCaption p {
+    font-size: 14px;
+  }
+
+  /* Ends Main */
+
+  .content2 {
+    
+    display: block;
+    width: auto;
+  }
+
+  article {
+    width: auto;
+  }
+
+  article h1 {
+    font-size: 32px;
+    line-height: 150%;
+  }
+
+  article p {
+    font-size: 14px;
+    line-height: 200%;
+    
+  }
+
+  aside {
+    width: auto;
+    margin: 0 auto;
+  }
+
+}
